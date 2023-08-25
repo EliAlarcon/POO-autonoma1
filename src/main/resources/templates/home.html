@@ -4,25 +4,37 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
 </head>
 <body>
-<header>
-    <h1>CLÍNICA VETERINARIA ZOOSPITAL</h1>
+<header class="encabezado container-fluid">
+    <h1 class="tituloEncabezado">CLÍNICA VETERINARIA ZOOSPITAL</h1>
+    <div class="cajaFacebook">
+        <a href="https://www.facebook.com/zoospital593/">
+            <i class="bi bi-facebook fs-3" style="color: black;"></i>
+        </a>
+    </div>
+    <div class="cajaInstagram">
+        <a href="https://www.instagram.com/zoospital.ec/">
+            <i class="bi bi-instagram fs-3" style="color: black;"></i>
+        </a>
+    </div>
+    <div class="cajaTiktok">
+        <a href="https://www.tiktok.com/@zoospital?lang=es">
+            <i class="bi bi-tiktok fs-3" style="color: black;"></i>
+        </a>
+    </div>
 </header>
 <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Zoospital</a>
+        <a class="navbar-brand" href="/">Zoospital</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="/">Home
-                        <span class="visually-hidden">(current)</span>
-                    </a>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/contactos">Contactos</a>
                 </li>
@@ -62,7 +74,7 @@
         </button>
     </div>
 </section>
-<section>
+<section class="cardHistoria">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">Historia</h5>
