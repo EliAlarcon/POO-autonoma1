@@ -21,7 +21,14 @@
 .cardHistoria{
     padding: 8%;
 }
-
 .card-title{
     text-align: center;
+}
+.cuadroMapas{
+    margin: 5%;
+}
+.contenedor{
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
